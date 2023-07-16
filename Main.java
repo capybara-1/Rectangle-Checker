@@ -22,6 +22,7 @@ public class Main {
         OurRectangle r1 = new OurRectangle(x1,y1,w1,l1);
         OurRectangle r2 = new OurRectangle(x2,y2,w2,l2);
         System.out.println("Total Perimeter: " + OurRectangle.totalPerimeter(r1,r2));
+        System.out.println("Total Area: " + OurRectangle.totalArea(r1,r2));
         System.out.println("Intersection: " + OurRectangle.intersection(r1,r2));
         System.out.println("is r2 inside r1: " + r2.contains(r1));
         System.out.println("is r1 inside r2: " + r1.contains(r2));
